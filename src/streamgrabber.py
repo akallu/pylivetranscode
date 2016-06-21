@@ -61,8 +61,5 @@ def main():
                 if current_time - start_time > TIME_LIMIT:
                     break
 
-
-
-
 if __name__ == "__main__":
     main()
