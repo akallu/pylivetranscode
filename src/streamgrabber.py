@@ -50,6 +50,7 @@ def main():
     urls = ('https://www.twitch.tv/odpixel', 'https://www.twitch.tv/wagamamatv')
     outfilename = os.path.join(os.getcwd(), 'source.out')
 
+    # merge two different streams into one video file
     with open(outfilename, 'w') as outfile:
         make_windows_fd_binary(outfile)
         for url in urls:
